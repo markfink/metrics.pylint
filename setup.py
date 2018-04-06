@@ -25,10 +25,10 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs if 'git+' no
 setup(
     name='metrics.pylint',
     version=__version__,
-    description='metrics.pylint is a plugin for the metrics package',
+    description='plugin for the metrics package (extracts pylint_score for Python code)',
     long_description=long_description,
     license='MIT',
-    url='https://github.com/markfink/metrics.gitinfo/',
+    url='https://github.com/markfink/metrics.pylint/',
     classifiers=[
         'Natural Language :: English',
         'Intended Audience :: Developers',

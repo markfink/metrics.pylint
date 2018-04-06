@@ -37,7 +37,14 @@ metrics.pylint adds a pylint_score to file metrics for all python files:
     }
 ```
 
-## License
+
+# Acknowledgements
+
+alecxe for a recipe on how to use pylint programmatically and how to extract the
+pylint score: https://stackoverflow.com/questions/39453828/extracting-pylint-score
+
+
+# License
 
 Copyright (c) 2018 Mark Fink and others.
 metrics is released under the MIT License (see MIT_LICENSE).

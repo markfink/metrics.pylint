@@ -55,7 +55,6 @@ class PyLintMetric(MetricBase):
 
     def get_metrics(self):
         if self.pylint_score:
-            #print(self.pylint_score)
             return {self.name: round(self.pylint_score, 2)}
         else:
             return {}
